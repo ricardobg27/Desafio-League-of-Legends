@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+}
+
+section{
+    width: 380px;
+    padding: 20px;
+}
+
+.logoPrincipal{
+    width: 200px;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+.login{
+    height: 350px;
+    width: 350px;
+    margin-top: 60px;
+}
+
+.login p{
+    margin-left: 120px;
+    margin-bottom: 10px;
+}
+
+.info{
+    height: 150px;
+    width: 330px;
+}
+
+.info input{
+    width: 320px;
+    height: 60px;
+    border-radius: 5%;
+    border: transparent;
+    background-color: #E8E6E6;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.name{
+    color: #716E6E;
+    position: absolute;
+    top:230px;
+    left: 38px;
+    font-size: 0.8em;
+}
+
+.password{
+    color: #716E6E;
+    position: absolute;
+    top:310px;
+    left: 38px;
+    font-size: 0.8em;
+}
+
+.logos{
+    width: 330px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px ;
+}
+
+.face{
+    border: transparent;
+    background-color: #2051FF;
+    height: 30px;
+    width: 90px;
+    border-radius: 5%;
+}
+
+.google{
+    border: transparent;
+    background-color: #8A0000;
+    height: 30px;
+    width: 90px;
+    border-radius: 5%;
+}
+
+.apple{
+    border: transparent;
+    background-color: black;
+    height: 30px;
+    width: 90px;
+    border-radius: 5%;
+}
+
+.box{
+    width: 130px;
+    margin: 10px;
+}
+
+.partTwo{
+    height: 950px;
+    width: 1500px;
+}
