@@ -18,10 +18,10 @@
             <div class="login">
                 <p>Fazer Login</p>
                 <form class="info">
-                   <span class="name">Nome de Usuário</span>
-                   <input type="text">
-                   <span class="password">Senha</span>
-                   <input type="password">
+                   <label for="text" class="name">Nome de Usuário</label>
+                   <input type="text" id="text" name="info">
+                   <label for="passaword" class="password">Senha</label>
+                   <input type="password" id="password" name="info">
                 </form>
                 <div class="logos">
                     <button type="button" class="face">
@@ -39,10 +39,14 @@
                     <label id="login">Manter login</label>
                 </div>
             </div>
-            <div>
-                <img src="image/arrow-right-thin 2.png" alt="">
-                <p>Não consegue iniciar a sessão?</p>
-                <p>Criar conta</p>
+            <div class="arrow">
+                <button type="button" class="redArrow" name="button">
+                    <img src="image/arrow-right-thin 2.png" alt="">
+                </button>
+                <div class="textButton">
+                    <a href=""><p>Não consegue iniciar a sessão?</p></a>
+                    <a href=""><p>Criar conta</p></a>
+                </div>
             </div>
         </Section>
         <div>
