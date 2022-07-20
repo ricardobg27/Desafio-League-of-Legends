@@ -33,7 +33,6 @@ section{
     margin-bottom: 10px;
     color: #2C2B2B;
     font-family: 'Inter', sans-serif;
-    font-weight: ;
 }
 
 .info{
@@ -45,7 +44,7 @@ section{
     width: 320px;
     height: 60px;
     border-radius: 5%;
-    border: transparent;
+    border: none;
     background-color: #E8E6E6;
     display: flex;
     justify-content: space-around;
@@ -64,7 +63,7 @@ section{
     
 }
 
-.password{
+.senha{
     color: #716E6E;
     position: absolute;
     top:310px;
@@ -85,6 +84,7 @@ section{
     height: 30px;
     width: 90px;
     border-radius: 5%;
+    cursor: pointer;
 }
 
 .google{
@@ -93,6 +93,7 @@ section{
     height: 30px;
     width: 90px;
     border-radius: 5%;
+    cursor: pointer;
 }
 
 .apple{
@@ -101,11 +102,15 @@ section{
     height: 30px;
     width: 90px;
     border-radius: 5%;
+    cursor: pointer;
 }
 
 .box{
     width: 130px;
     margin: 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.1em;
+    color: #000000;
 }
 
 .arrow{
@@ -124,6 +129,12 @@ section{
     border: transparent;
     height: 35px;
     width: 35px;
+    cursor: pointer;
+}
+
+.redArrow:disabled{
+    cursor: auto;
+    background-color: #716E6E;
 }
 
 .textButton{
